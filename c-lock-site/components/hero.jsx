@@ -50,36 +50,36 @@ export default function Hero() {
       <div className="hero-glow hero-glow-left" />
       <div className="container hero-grid">
         <div>
-          <div className="eyebrow-pill">Modular walls for a lower-waste future</div>
-          <h1>Beautiful walls should not come with renovation waste.</h1>
+          <div className="eyebrow-pill">Carbon-integrated building materials</div>
+          <h1>We turn carbon into walls.</h1>
           <p className="hero-copy">
-            C-LOCK is a modular wall tile system that helps homes, offices, and retail spaces upgrade interiors without the waste, rigidity, and carbon burden of traditional wall panels.
+            C-LOCK is a modular wall tile system that helps homes, offices, and retail spaces upgrade interiors without the carbon burden of traditional wall panels.
           </p>
 
           <div className="hero-cards">
             <article className="mini-card">
               <strong>Problem</strong>
               <p>
-                Traditional wall renovations create unnecessary material waste and lock users into full replacements.
+                Most wall materials release carbon and create waste.
               </p>
             </article>
             <article className="mini-card">
-              <strong>Solution</strong>
+              <strong>What we do</strong>
               <p>
-                Snap-fit tiles that are easy to install, easy to swap, and built for repeated refreshes.
+                We turn carbon into modular wall tiles.
               </p>
             </article>
             <article className="mini-card">
-              <strong>Edge</strong>
+              <strong>Why it matters</strong>
               <p>
-                Design-forward surfaces with circular thinking and carbon-conscious materials at the core.
+                Your walls store carbon instead of emitting it.
               </p>
             </article>
           </div>
 
           <div className="button-row">
             <a href="#why-clock" className="button button-primary">
-              Explore the product
+              Explore the system
             </a>
             <a href="#contact" className="button button-secondary">
               Request a sample
