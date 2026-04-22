@@ -142,7 +142,7 @@ export default function HomePage() {
               Whether you are designing a retail installation, a commercial environment, or a home refresh, C-LOCK is built to make walls more adaptable and more responsible.
             </p>
             <div className="button-row">
-              <a href="mailto:hello@clocktiles.com" className="button button-primary">
+              <a href="mailto:gsinghan@uci.edu" className="button button-primary">
                 Email the team
               </a>
               <a href="#top" className="button button-secondary button-secondary-dark">

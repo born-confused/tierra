@@ -180,7 +180,7 @@ export default function FaqPage() {
               If you want to discuss the material, the product direction, or the broader vision behind C-LOCK, reach out directly.
             </p>
             <div className="button-row">
-              <a href="mailto:hello@clocktiles.com" className="button button-primary">
+              <a href="mailto:gsinghan@uci.edu" className="button button-primary">
                 Email the team
               </a>
               <a href="/materials" className="button button-secondary button-secondary-dark">
