@@ -1,28 +1,25 @@
-const navItems = [
-  { label: 'How It Works', href: '#how-it-works' },
-  { label: 'Why C-LOCK', href: '#why-clock' },
-  { label: 'Use Cases', href: '#use-cases' },
-  { label: 'Sustainability', href: '#sustainability' },
-  { label: 'FAQ', href: '#faq' },
-  { label: 'Contact', href: '#contact' },
-];
+import Navbar from "../components/navbar";
+import Hero from "../components/hero";
+import WhyClock from "../components/whyclock";
+import UseCases from "../components/usecases";
+
 
 const benefits = [
   {
-    title: 'Tool-free installation',
-    text: 'A snap-fit tile system inspired by modular building blocks, so walls can be installed or refreshed in minutes.',
+    title: 'Carbon-integrated material',
+    text: 'Designed to store carbon within the material itself instead of relying on carbon-intensive inputs.',
   },
   {
-    title: 'Zero-waste updates',
-    text: 'Replace or rearrange only the tiles you want instead of ripping out entire wall panels.',
+    title: 'Modular by design',
+    text: 'Snap-fit tiles allow updates at the tile level instead of replacing entire wall systems.',
   },
   {
-    title: 'Carbon-conscious materials',
-    text: 'Designed to turn industrial pollution into durable, design-forward wall tiles.',
+    title: 'Circular lifecycle',
+    text: 'Tiles can be removed, replaced, and reused, reducing waste from repeated renovation cycles.',
   },
   {
-    title: 'Closed-loop lifecycle',
-    text: 'Tiles are built with end-of-life recycling in mind, supporting a circular product model.',
+    title: 'Designed for real spaces',
+    text: 'Built to meet durability, moisture resistance, and safety expectations while maintaining flexibility.',
   },
 ];
 
@@ -60,229 +57,81 @@ const faqs = [
   },
 ];
 
-function TileWall() {
-  const tiles = [
-    'tile wave',
-    'tile sand',
-    'tile pebble',
-    'tile ridge',
-    'tile fog',
-    'tile moss',
-    'tile pearl',
-    'tile stone',
-    'tile cream',
-    'tile clay',
-    'tile frost',
-    'tile sage',
-    'tile dune',
-    'tile mist',
-    'tile olive',
-    'tile chalk',
-    'tile shell',
-    'tile sea',
-    'tile ivory',
-    'tile drift',
-  ];
-
-  return (
-    <div className="tile-shell">
-      <div className="tile-grid">
-        {tiles.map((className, index) => (
-          <div key={index} className={className} />
-        ))}
-      </div>
-      <div className="tile-note-row">
-        <div className="tile-note">
-          <strong>Instant refresh</strong>
-          <p>Swap individual tiles instead of replacing an entire wall system.</p>
-        </div>
-        <div className="tile-note tile-note-green">
-          <strong>Built for flexibility</strong>
-          <p>Designed for spaces that evolve, from pop-ups to homes to branded interiors.</p>
-        </div>
-      </div>
-    </div>
-  );
-}
-
 export default function HomePage() {
   return (
     <main id="top">
-      <header className="site-header">
-        <div className="container nav-wrap">
-          <a href="#top" className="brand">
-            <div className="brand-mark">C+</div>
-            <div>
-              <div className="brand-title">C-LOCK</div>
-              <div className="brand-subtitle">The wall is your canvas</div>
-            </div>
-          </a>
+      <Navbar />
 
-          <nav className="nav-links">
-            {navItems.map((item) => (
-              <a key={item.href} href={item.href}>
-                {item.label}
-              </a>
-            ))}
-          </nav>
-        </div>
-      </header>
+      <Hero />
 
-      <section className="hero-section">
-        <div className="hero-glow hero-glow-right" />
-        <div className="hero-glow hero-glow-left" />
-        <div className="container hero-grid">
-          <div>
-            <div className="eyebrow-pill">Modular walls for a lower-waste future</div>
-            <h1>Beautiful walls should not come with renovation waste.</h1>
-            <p className="hero-copy">
-              C-LOCK is a modular wall tile system that helps homes, offices, and retail spaces upgrade interiors without the waste, rigidity, and carbon burden of traditional wall panels.
-            </p>
-
-            <div className="hero-cards">
-              <article className="mini-card">
-                <strong>Problem</strong>
-                <p>
-                  Traditional wall renovations create unnecessary material waste and lock users into full replacements.
-                </p>
-              </article>
-              <article className="mini-card">
-                <strong>Solution</strong>
-                <p>
-                  Snap-fit tiles that are easy to install, easy to swap, and built for repeated refreshes.
-                </p>
-              </article>
-              <article className="mini-card">
-                <strong>Edge</strong>
-                <p>
-                  Design-forward surfaces with circular thinking and carbon-conscious materials at the core.
-                </p>
-              </article>
-            </div>
-
-            <div className="button-row">
-              <a href="#why-clock" className="button button-primary">
-                Explore the product
-              </a>
-              <a href="#contact" className="button button-secondary">
-                Request a sample
-              </a>
-            </div>
-          </div>
-
-          <TileWall />
-        </div>
-      </section>
-
-      <section id="how-it-works" className="section">
+      <section className="section section-white">
         <div className="container narrow-heading">
-          <div className="section-label">How it works</div>
-          <h2>A simpler way to build and refresh walls</h2>
+          <div className="section-label">The problem</div>
+          <h2>Interior materials were never designed for a carbon-constrained world.</h2>
           <p>
-            Most wall systems are static. Once installed, changing them means tearing materials out and starting over. C-LOCK turns walls into a flexible surface that can evolve with the space.
+            Most wall systems today rely on fossil-based plastics or wood, create unnecessary waste during renovations, and introduce materials that are not designed with long-term environmental impact in mind.
           </p>
         </div>
 
         <div className="container card-grid three-up">
           <article className="content-card">
             <span className="step-label">01</span>
-            <h3>Snap tiles into place</h3>
+            <h3>Walls release carbon</h3>
             <p>
-              The modular design is made for quick setup, reducing installation friction for both commercial and residential users.
+              Traditional materials are made from carbon-intensive sources and do not store carbon in any meaningful way.
             </p>
           </article>
+
           <article className="content-card">
             <span className="step-label">02</span>
-            <h3>Rearrange or replace as needed</h3>
+            <h3>Renovations create waste</h3>
             <p>
-              Instead of full renovation cycles, users can update only the sections they want to refresh.
+              Entire panels are removed and discarded even when only small updates are needed.
             </p>
           </article>
+
           <article className="content-card">
             <span className="step-label">03</span>
-            <h3>Recycle through the loop</h3>
+            <h3>Materials are not clean</h3>
             <p>
-              At end of life, the system is intended to support circular recovery and material reuse.
+              Many systems rely on materials that introduce toxicity concerns and are not built for circular reuse.
             </p>
           </article>
         </div>
       </section>
 
-      <section id="why-clock" className="section section-white">
-        <div className="container split-grid">
-          <div>
-            <div className="section-label">Why C-LOCK</div>
-            <h2>Built around the real problem, not just the wall.</h2>
-            <p>
-              The pain point is not only aesthetics. It is the waste, labor, rigidity, and repeated replacement that come with conventional wall panels. C-LOCK solves for all four at once.
-            </p>
-          </div>
-
-          <div className="card-grid two-up">
-            {benefits.map((item) => (
-              <article key={item.title} className="content-card soft-card">
-                <h3>{item.title}</h3>
-                <p>{item.text}</p>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section id="use-cases" className="section">
-        <div className="container narrow-heading">
-          <div className="section-label">Use cases</div>
-          <h2>Designed for spaces that change often and spaces that deserve better materials.</h2>
-        </div>
-        <div className="container card-grid three-up">
-          {audience.map((item, index) => (
-            <article key={item.title} className="content-card use-case-card">
-              <div className={`image-block image-block-${index + 1}`} />
-              <h3>{item.title}</h3>
-              <p>{item.text}</p>
-            </article>
-          ))}
-        </div>
-      </section>
+      <WhyClock benefits={benefits} />
 
       <section id="sustainability" className="section section-dark">
-        <div className="container split-grid">
-          <div>
-            <div className="section-label section-label-light">Sustainability</div>
-            <h2>Sustainability is not an extra claim. It is the product architecture.</h2>
+        <div className="container sustainability-proof">
+          <div className="sustainability-intro">
+            <div className="section-label section-label-light">Carbon proof</div>
+            <h2>Sustainability becomes real when it can be measured.</h2>
             <p>
-              C-LOCK is positioned around reducing waste from traditional interior renovation while using a material approach that aims to capture carbon and support end-of-life recycling.
+              C-LOCK is designed to store carbon within the wall itself, not just reduce waste around it.
             </p>
           </div>
-          <div className="card-grid two-up">
-            {[
-              'Replace full-panel renovation with tile-level updates',
-              'Reduce disposal from trend-driven interior refresh cycles',
-              'Create a closed-loop path for returned materials',
-              'Support design flexibility without sacrificing environmental intent',
-            ].map((text) => (
-              <article key={text} className="dark-card">
-                <p>{text}</p>
-              </article>
-            ))}
+
+          <div className="proof-stats">
+            <div className="proof-stat">
+              <div className="proof-number">1.2 kg</div>
+              <p>of CO₂-equivalent carbon stored per tile</p>
+            </div>
+
+            <div className="proof-stat">
+              <div className="proof-number">15-20 tiles</div>
+              <p>is roughly like planting one tree, in wall form</p>
+            </div>
+
+            <div className="proof-stat">
+              <div className="proof-number">Tile-level updates</div>
+              <p>replace only what changes instead of redoing the full wall</p>
+            </div>
           </div>
         </div>
       </section>
 
-      <section id="faq" className="section faq-section">
-        <div className="container centered-heading">
-          <div className="section-label">FAQ</div>
-          <h2>Questions a buyer or design partner will ask</h2>
-        </div>
-        <div className="container faq-list">
-          {faqs.map((item) => (
-            <details key={item.q} className="faq-item">
-              <summary>{item.q}</summary>
-              <p>{item.a}</p>
-            </details>
-          ))}
-        </div>
-      </section>
+      <UseCases audience={audience} />
 
       <section id="contact" className="section contact-section">
         <div className="container">
@@ -293,7 +142,7 @@ export default function HomePage() {
               Whether you are designing a retail installation, a commercial environment, or a home refresh, C-LOCK is built to make walls more adaptable and more responsible.
             </p>
             <div className="button-row">
-              <a href="mailto:hello@clocktiles.com" className="button button-primary">
+              <a href="mailto:gsinghan@uci.edu" className="button button-primary">
                 Email the team
               </a>
               <a href="#top" className="button button-secondary button-secondary-dark">
