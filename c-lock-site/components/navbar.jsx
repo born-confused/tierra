@@ -2,8 +2,7 @@ const navItems = [
   { label: 'Home', href: '/' },
   { label: 'Materials', href: '/materials' },
   { label: 'FAQ', href: '/faq' },
-  { label: 'Meet the Creators', href: '/meet-the-team' },
-  { label: 'Contact', href: '/#contact' },
+  { label: 'Meet the Creators', href: '/meet-the-team' }
 ];
 
 export default function Navbar() {
