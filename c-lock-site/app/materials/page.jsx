@@ -207,7 +207,7 @@ export default function MaterialsPage() {
             </div>
 
             <div className="proof-stat">
-              <div className="proof-number">15–20 tiles</div>
+              <div className="proof-number">15-20 tiles</div>
               <p>roughly equivalent to one tree, in wall form</p>
             </div>
 
