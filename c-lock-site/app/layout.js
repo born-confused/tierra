@@ -1,9 +1,9 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'C-LOCK | Modular Eco-Friendly Wall Tiles',
+  title: "C-LOCK | Carbon-Storing Modular Wall System",
   description:
-    'C-LOCK is a modular wall tile system that helps homes, offices, and retail spaces upgrade interiors without the waste, rigidity, and carbon burden of traditional wall panels.',
+    "C-LOCK turns carbon into walls. A modular interior system designed to reduce waste, toxicity, and emissions.",
 };
 
 export default function RootLayout({ children }) {
