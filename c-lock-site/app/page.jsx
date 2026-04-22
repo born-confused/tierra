@@ -119,7 +119,7 @@ export default function HomePage() {
             </div>
 
             <div className="proof-stat">
-              <div className="proof-number">15–20 tiles</div>
+              <div className="proof-number">15-20 tiles</div>
               <p>is roughly like planting one tree, in wall form</p>
             </div>
 
