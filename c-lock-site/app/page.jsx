@@ -1,9 +1,7 @@
 import Navbar from "../components/navbar";
 import Hero from "../components/hero";
-import HowItWorks from "../components/howitworks";
 import WhyClock from "../components/whyclock";
 import UseCases from "../components/usecases";
-import FaqPreview from "../components/faqpreview";
 
 
 const benefits = [
@@ -102,37 +100,38 @@ export default function HomePage() {
         </div>
       </section>
 
-      <HowItWorks />
-
       <WhyClock benefits={benefits} />
 
-      <UseCases audience={audience} />
-
       <section id="sustainability" className="section section-dark">
-        <div className="container split-grid">
-          <div>
-            <div className="section-label section-label-light">Sustainability</div>
-            <h2>Sustainability is not an extra claim. It is the product architecture.</h2>
+        <div className="container sustainability-proof">
+          <div className="sustainability-intro">
+            <div className="section-label section-label-light">Carbon proof</div>
+            <h2>Sustainability becomes real when it can be measured.</h2>
             <p>
-              C-LOCK is designed to reduce waste from traditional renovation while introducing a material approach that stores carbon within the product itself. Each tile is engineered using bio-based polymer systems that integrate carbon into the structure of the material.
+              C-LOCK is designed to store carbon within the wall itself, not just reduce waste around it.
             </p>
           </div>
-          <div className="card-grid two-up">
-            {[
-              'Each tile stores approximately 1.2 kg of CO₂-equivalent carbon',
-              '15–20 tiles installed is roughly equivalent to the annual carbon absorption of one tree',
-              'Replace full-panel renovation with tile-level updates',
-              'Support circular reuse instead of disposal-driven cycles',
-            ].map((text) => (
-              <article key={text} className="dark-card">
-                <p>{text}</p>
-              </article>
-            ))}
+
+          <div className="proof-stats">
+            <div className="proof-stat">
+              <div className="proof-number">1.2 kg</div>
+              <p>of CO₂-equivalent carbon stored per tile</p>
+            </div>
+
+            <div className="proof-stat">
+              <div className="proof-number">15–20 tiles</div>
+              <p>is roughly like planting one tree, in wall form</p>
+            </div>
+
+            <div className="proof-stat">
+              <div className="proof-number">Tile-level updates</div>
+              <p>replace only what changes instead of redoing the full wall</p>
+            </div>
           </div>
         </div>
       </section>
 
-      <FaqPreview faqs={faqs} />
+      <UseCases audience={audience} />
 
       <section id="contact" className="section contact-section">
         <div className="container">

@@ -1,10 +1,9 @@
 const navItems = [
-  { label: 'How It Works', href: '#how-it-works' },
-  { label: 'Why C-LOCK', href: '#why-clock' },
-  { label: 'Use Cases', href: '#use-cases' },
-  { label: 'Sustainability', href: '#sustainability' },
-  { label: 'FAQ', href: '#faq' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'Home', href: '/' },
+  { label: 'Materials', href: '/materials' },
+  { label: 'FAQ', href: '/faq' },
+  { label: 'Meet the Creators', href: '/meet-the-team' },
+  { label: 'Contact', href: '/#contact' },
 ];
 
 export default function Navbar() {
@@ -13,7 +12,7 @@ export default function Navbar() {
       {
         <header className="site-header">
         <div className="container nav-wrap">
-            <a href="#top" className="brand">
+            <a href="/" className="brand">
                 <div className="brand-mark">C+</div>
                 <div>
                 <div className="brand-title">C-LOCK</div>
