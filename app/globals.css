@@ -1481,9 +1481,6 @@ h1 {
 }
 
 @media (max-width: 680px) {
-  .home-image-banner {
-    padding-top: 16px;
-  }
 
   .waitlist-form {
     grid-template-columns: 1fr;
@@ -1538,5 +1535,70 @@ h1 {
 
   .contact-panel {
     padding: 28px;
+  }
+}
+
+@media (max-width: 680px) {
+  main {
+    padding-top: 0;
+  }
+
+  .site-header {
+    position: static;
+  }
+
+  .nav-wrap {
+    padding: 18px 0;
+    gap: 18px;
+  }
+
+  .brand {
+    gap: 12px;
+  }
+
+  .brand-logo {
+    height: 48px;
+  }
+
+  .brand-title {
+    font-size: 18px;
+    letter-spacing: 0.2em;
+  }
+
+  .brand-subtitle {
+    font-size: 10px;
+    max-width: 260px;
+    line-height: 1.25;
+  }
+
+  .nav-right {
+    width: 100%;
+    gap: 16px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .nav-links {
+    width: 100%;
+    gap: 18px;
+  }
+
+  .nav-links a {
+    font-size: 15px;
+  }
+
+  .nav-cta {
+    height: 46px;
+    padding: 0 24px;
+    font-size: 15px;
+  }
+
+  .home-image-banner {
+    padding-top: 0;
+  }
+
+  .home-image-banner img {
+    height: 360px;
+    object-position: 58% center;
   }
 }
