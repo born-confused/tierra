@@ -62,6 +62,13 @@ export default function HomePage() {
     <main id="top">
       <Navbar />
 
+      <section className="home-image-banner">
+        <img
+          src="/tierra-hero-banner.webp"
+          alt="Tierra modular wall tiles in an interior setting"
+        />
+      </section>
+
       <Hero />
 
       <WhyTierra benefits={benefits} />

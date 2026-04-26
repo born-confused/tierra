@@ -1272,6 +1272,50 @@ h1 {
   }
 }
 
+.home-image-banner {
+  width: 100%;
+  background: var(--bg);
+}
+
+.home-image-banner img {
+  display: block;
+  width: 100%;
+  height: clamp(420px, 58vw, 760px);
+  object-fit: cover;
+  object-position: center;
+}
+
+.home-image-banner {
+  position: relative;
+  width: 100%;
+  background: var(--bg);
+}
+
+.home-image-banner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(
+    to bottom,
+    rgba(26, 26, 26, 0.08),
+    transparent 28%,
+    transparent 72%,
+    rgba(247, 243, 237, 0.18)
+  );
+}
+
+@media (max-width: 680px) {
+  .home-image-banner {
+    padding-top: 16px;
+  }
+
+  .home-image-banner img {
+    height: 360px;
+    object-position: center;
+  }
+}
+
 @media (max-width: 680px) {
   .site-header {
     position: static;
