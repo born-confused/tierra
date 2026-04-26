@@ -75,14 +75,24 @@ main {
   font-weight: 700;
 }
 
+.brand-logo {
+  width: 46px;
+  height: 46px;
+  object-fit: contain;
+  display: block;
+}
+
 .brand-title {
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 800;
+  letter-spacing: 0.18em;
 }
 
 .brand-subtitle {
-  font-size: 12px;
+  font-size: 11px;
   color: var(--muted);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .nav-links {

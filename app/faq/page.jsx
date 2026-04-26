@@ -7,8 +7,8 @@ const faqGroups = [
     title: "What C-LOCK is",
     items: [
       {
-        q: "What is C-LOCK?",
-        a: "C-LOCK is a modular interior wall tile system built around a carbon-integrated material approach. It is designed to offer a cleaner, more adaptable alternative to conventional wall panels while storing carbon within the material itself.",
+        q: 'What is Tierra?',
+        a: 'Tierra is a modular wall tile system designed to replace traditional plastic and wood wall panels with a more flexible, low-waste alternative.',
       },
       {
         q: "How is it different from standard wall panels?",

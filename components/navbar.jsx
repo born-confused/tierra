@@ -12,10 +12,10 @@ export default function Navbar() {
         <header className="site-header">
         <div className="container nav-wrap">
             <a href="/" className="brand">
-                <div className="brand-mark">C+</div>
+                <img src="/tierra_logo-removebg-preview.png" alt="Tierra logo" className="brand-logo" />
                 <div>
-                <div className="brand-title">C-LOCK</div>
-                <div className="brand-subtitle">The wall is your canvas</div>
+                  <div className="brand-title">TIERRA</div>
+                  <div className="brand-subtitle">Rethinking Surfaces. Rebuilding Materials.</div>
                 </div>
             </a>
 

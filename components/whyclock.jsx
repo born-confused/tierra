@@ -3,10 +3,10 @@ export default function WhyClock({ benefits }) {
     <section id="why-clock" className="section section-white">
         <div className="container split-grid">
           <div>
-            <div className="section-label">Why C-LOCK</div>
+            <div className="section-label">Why Tierra</div>
             <h2>A wall system built around carbon, not just construction.</h2>
             <p>
-              C-LOCK is designed as a material system, not just a surface upgrade. It addresses carbon impact, renovation waste, and material toxicity together through a modular architecture that allows walls to evolve instead of being replaced.
+              The pain point is not only aesthetics. It is the waste, labor, rigidity, and repeated replacement that come with conventional wall panels. Tierra solves for all four at once.
             </p>
           </div>
 

@@ -108,7 +108,7 @@ export default function HomePage() {
             <div className="section-label section-label-light">Carbon proof</div>
             <h2>Sustainability becomes real when it can be measured.</h2>
             <p>
-              C-LOCK is designed to store carbon within the wall itself, not just reduce waste around it.
+              Tierra is positioned around reducing waste from traditional interior renovation while using a material approach that aims to capture carbon and support end-of-life recycling.
             </p>
           </div>
 
@@ -139,7 +139,7 @@ export default function HomePage() {
             <div className="section-label section-label-light">Get in touch</div>
             <h2>Bring a lower-waste wall system into your next space.</h2>
             <p>
-              Whether you are designing a retail installation, a commercial environment, or a home refresh, C-LOCK is built to make walls more adaptable and more responsible.
+              Whether you are designing a retail installation, a commercial environment, or a home refresh, Tierra is built to make walls more adaptable and more responsible.
             </p>
             <div className="button-row">
               <a href="mailto:gsinghan@uci.edu" className="button button-primary">

@@ -1,9 +1,9 @@
 import './globals.css';
 
 export const metadata = {
-  title: "C-LOCK | Carbon-Storing Modular Wall System",
+  title: 'Tierra | Modular Eco-Friendly Wall Tiles',
   description:
-    "C-LOCK turns carbon into walls. A modular interior system designed to reduce waste, toxicity, and emissions.",
+    'Tierra is a modular wall tile system that helps homes, offices, and retail spaces upgrade interiors without the waste, rigidity, and carbon burden of traditional wall panels.',
 };
 
 export default function RootLayout({ children }) {
