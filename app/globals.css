@@ -9,7 +9,7 @@
 
   --green: #1e3d2f;
   --green-dark: #10251c;
-  --green-soft: #e6efe6;
+  --green-soft: #d7eed7;
 
   --sage: #6b8f6a;
   --accent: #b68b62;
@@ -167,8 +167,8 @@ main {
   position: relative;
   z-index: 1;
   display: grid;
-  grid-template-columns: 1.05fr 0.95fr;
-  gap: 48px;
+  grid-template-columns: 1.35fr 1.05fr;
+  gap: 144px;
   align-items: center;
 }
 
@@ -290,8 +290,27 @@ h1 {
   border-color: rgba(255, 255, 255, 0.4);
 }
 
+.tile-image-frame {
+  width: calc(100% + 44px);   /* 22px + 22px */
+  margin-left: -22px;
+  margin-right: -22px;
+  margin-top: -22px;
+  margin-bottom: -22px;
+  aspect-ratio: 1 / 1;
+  border-radius: 28px;
+  overflow: hidden;
+}
+
+.tile-image-frame img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: 25% center;
+}
+
 .tile-shell {
-  padding: 22px;
+  padding: 22px
 }
 
 .tile-grid {
@@ -308,7 +327,7 @@ h1 {
 }
 
 .tile-note-row {
-  margin-top: 18px;
+  margin-top: 22px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 14px;
@@ -316,7 +335,7 @@ h1 {
 
 .tile-note {
   border-radius: 22px;
-  background: #f3eee6;
+  background: #e9e0d1;
   padding: 18px;
 }
 
@@ -375,7 +394,7 @@ h1 {
 
 .section-label {
   display: inline-block;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -837,6 +856,10 @@ h1 {
   .proof-stats {
     grid-template-columns: 1fr;
   }
+  .why-tierra-image {
+    margin-top: 40px;
+    height: 340px;
+  }
 
   .materials-hero-panel {
     justify-content: stretch;
@@ -873,6 +896,35 @@ h1 {
 
 .two-up {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.why-tierra-benefits {
+  padding-top: 24px;
+}
+
+.why-tierra-heading {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.why-tierra-image {
+  margin-top: 24px;
+  width: 100%;
+  height: clamp(260px, 28vw, 420px);
+  border-radius: 28px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
+.why-tierra-image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
 }
 
 .split-grid {
@@ -1308,6 +1360,12 @@ h1 {
 @media (max-width: 680px) {
   .home-image-banner {
     padding-top: 16px;
+  }
+
+  .why-tierra-image {
+    margin-top: 28px;
+    height: 260px;
+    border-radius: 22px;
   }
 
   .home-image-banner img {
