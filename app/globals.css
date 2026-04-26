@@ -61,7 +61,7 @@ main {
 .brand {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 18px;
 }
 
 .brand-mark {
@@ -76,8 +76,8 @@ main {
 }
 
 .brand-logo {
-  width: 46px;
-  height: 46px;
+  height: 50px;
+  width: auto;
   object-fit: contain;
   display: block;
 }
@@ -85,14 +85,17 @@ main {
 .brand-title {
   font-size: 18px;
   font-weight: 800;
-  letter-spacing: 0.18em;
+  letter-spacing: 0.22em;
+  line-height: 1;
 }
 
 .brand-subtitle {
-  font-size: 11px;
+  margin-top: 6px;
+  font-size: 13px;
   color: var(--muted);
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  line-height: 1.1;
 }
 
 .nav-links {

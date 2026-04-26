@@ -11,7 +11,7 @@ export default function Navbar() {
       {
         <header className="site-header">
         <div className="container nav-wrap">
-            <a href="/" className="brand">
+            <a href="#top" className="brand">
                 <img src="/tierra_logo-removebg-preview.png" alt="Tierra logo" className="brand-logo" />
                 <div>
                   <div className="brand-title">TIERRA</div>
