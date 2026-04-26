@@ -50,7 +50,6 @@ export default function Hero() {
       <div className="hero-glow hero-glow-left" />
       <div className="container hero-grid">
         <div>
-          <div className="eyebrow-pill">Carbon-integrated building materials</div>
           <h1>We turn carbon into walls.</h1>
           <p className="hero-copy">
             Tierra is a modular wall tile system that helps homes, offices, and retail spaces upgrade interiors without the waste, rigidity, and carbon burden of traditional wall panels.
