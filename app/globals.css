@@ -39,6 +39,7 @@ a {
 
 main {
   overflow-x: hidden;
+  padding-top: 88px;
 }
 
 .container {
@@ -47,8 +48,10 @@ main {
 }
 
 .site-header {
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   z-index: 30;
   background: rgba(255, 255, 255, 0.82);
   backdrop-filter: blur(16px);
@@ -81,7 +84,7 @@ main {
 }
 
 .brand-logo {
-  height: 44px;
+  height: 64px;
   width: auto;
   object-fit: contain;
   display: block;
@@ -96,7 +99,7 @@ main {
 
 .brand-subtitle {
   margin-top: 6px;
-  font-size: 11px;
+  font-size: 13px;
   color: var(--muted);
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -112,14 +115,14 @@ main {
 
 .nav-links a {
   position: relative;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 700;
-  color: rgba(28, 26, 23, 0.72);
+  color: rgb(1, 96, 14);
   letter-spacing: -0.01em;
 }
 
 .nav-links a:hover {
-  color: var(--green);
+  color: var(--green-dark);
 }
 
 .nav-links a::after {
