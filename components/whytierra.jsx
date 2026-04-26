@@ -1,4 +1,4 @@
-export default function WhyClock({ benefits }) {
+export default function WhyTierra({ benefits }) {
   return (
     <section id="why-clock" className="section section-white">
         <div className="container split-grid">

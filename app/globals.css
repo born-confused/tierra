@@ -535,6 +535,10 @@ h1 {
   padding-top: 18px;
 }
 
+.materials-flow-section-extra-padding {
+  padding-top: 80px;
+}
+
 .materials-flow-intro {
   max-width: 820px;
 }
@@ -631,6 +635,25 @@ h1 {
   border: 1px solid rgba(221, 213, 202, 0.9);
   font-size: 13px;
   font-weight: 700;
+}
+
+.composition-heading h2 {
+  font-size: 25px;
+  line-height: 1.02;
+  letter-spacing: 0.04em;
+  font-weight: 300;
+  font-style: italic;
+  padding-top: 15px;
+}
+
+.composition-heading h2:nth-child(2) {
+  font-weight: 900;
+  font-size: 35px;
+  font-style: normal;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  letter-spacing: 0px;
+  color: var(--green);
 }
 
 .composition-callout {

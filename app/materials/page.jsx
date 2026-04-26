@@ -109,6 +109,42 @@ export default function MaterialsPage() {
       </section>
 
       <section className="section materials-flow-section">
+        <div className="container narrow-heading">
+          <div className="section-label">The problem</div>
+          <h2>Interior materials were never designed for a carbon-constrained world.</h2>
+          <p>
+            Most wall systems today rely on fossil-based plastics or wood, create unnecessary waste during renovations, and introduce materials that are not designed with long-term environmental impact in mind.
+          </p>
+        </div>
+
+        <div className="container card-grid three-up">
+          <article className="content-card">
+            <span className="step-label">01</span>
+            <h3>Walls release carbon</h3>
+            <p>
+              Traditional materials are made from carbon-intensive sources and do not store carbon in any meaningful way.
+            </p>
+          </article>
+
+          <article className="content-card">
+            <span className="step-label">02</span>
+            <h3>Renovations create waste</h3>
+            <p>
+              Entire panels are removed and discarded even when only small updates are needed.
+            </p>
+          </article>
+
+          <article className="content-card">
+            <span className="step-label">03</span>
+            <h3>Materials are not clean</h3>
+            <p>
+              Many systems rely on materials that introduce toxicity concerns and are not built for circular reuse.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section className="section section-white">
         <div className="container">
           <div className="materials-flow-intro">
             <div className="section-label">System flow</div>
@@ -127,11 +163,14 @@ export default function MaterialsPage() {
         </div>
       </section>
 
-      <section className="section section-white">
+      <section className="section materials-flow-section-extra-padding">
         <div className="container composition-layout">
           <div className="composition-intro">
             <div className="section-label">Composition</div>
-            <h2>Not raw polymer. A complete material system.</h2>
+            <div className="composition-heading">
+              <h2>Not raw polymer.</h2>
+              <h2>A complete material system.</h2>
+            </div>
             <p>
               Tierra tiles are engineered as composites. That means the final tile is built from multiple components working together to deliver structure, durability, flexibility, and surface protection.
             </p>

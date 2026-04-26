@@ -1,6 +1,6 @@
 import Navbar from "../components/navbar";
 import Hero from "../components/hero";
-import WhyClock from "../components/whyclock";
+import WhyTierra from "../components/whytierra";
 import UseCases from "../components/usecases";
 
 
@@ -64,43 +64,7 @@ export default function HomePage() {
 
       <Hero />
 
-      <section className="section section-white">
-        <div className="container narrow-heading">
-          <div className="section-label">The problem</div>
-          <h2>Interior materials were never designed for a carbon-constrained world.</h2>
-          <p>
-            Most wall systems today rely on fossil-based plastics or wood, create unnecessary waste during renovations, and introduce materials that are not designed with long-term environmental impact in mind.
-          </p>
-        </div>
-
-        <div className="container card-grid three-up">
-          <article className="content-card">
-            <span className="step-label">01</span>
-            <h3>Walls release carbon</h3>
-            <p>
-              Traditional materials are made from carbon-intensive sources and do not store carbon in any meaningful way.
-            </p>
-          </article>
-
-          <article className="content-card">
-            <span className="step-label">02</span>
-            <h3>Renovations create waste</h3>
-            <p>
-              Entire panels are removed and discarded even when only small updates are needed.
-            </p>
-          </article>
-
-          <article className="content-card">
-            <span className="step-label">03</span>
-            <h3>Materials are not clean</h3>
-            <p>
-              Many systems rely on materials that introduce toxicity concerns and are not built for circular reuse.
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <WhyClock benefits={benefits} />
+      <WhyTierra benefits={benefits} />
 
       <UseCases audience={audience} />
 
