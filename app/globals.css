@@ -934,6 +934,21 @@ h1 {
   align-items: start;
 }
 
+.use-cases-heading {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.use-cases-heading h2 {
+  width: 100%;
+}
+
+.use-cases-cards {
+  grid-column: 1 / -1;
+}
+
 .content-card {
   padding: 28px;
 }
@@ -959,23 +974,43 @@ h1 {
   margin-bottom: 16px;
 }
 
-.use-case-card .image-block {
+.use-case-image-strip {
+  margin-top: 56px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 100%;
+  padding: 0 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.use-case-portrait {
+  width: 100%;
+  height: clamp(520px, 52vw, 720px);
+  border-radius: 32px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  background: var(--surface);
+}
+
+.use-case-portrait img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
+.use-case-card .use-case-image {
+  width: 100%;
   height: 190px;
   border-radius: 22px;
   margin-bottom: 20px;
   border: 1px solid var(--border);
-}
-
-.image-block-1 {
-  background: linear-gradient(135deg, #cfe8df, #f3e8d7);
-}
-
-.image-block-2 {
-  background: linear-gradient(135deg, #e6e5dd, #cfd7c6);
-}
-
-.image-block-3 {
-  background: linear-gradient(135deg, #f1e7dc, #e5f0eb);
+  object-fit: cover;
 }
 
 .dark-card {
@@ -1159,6 +1194,10 @@ h1 {
 
   .faq-group-heading {
     max-width: none;
+  }
+
+  .use-case-image-strip {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
@@ -1360,6 +1399,16 @@ h1 {
 @media (max-width: 680px) {
   .home-image-banner {
     padding-top: 16px;
+  }
+
+  .use-case-image-strip {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .use-case-portrait {
+    height: 520px;
+    border-radius: 24px;
   }
 
   .why-tierra-image {
