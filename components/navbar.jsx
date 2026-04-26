@@ -10,23 +10,29 @@ export default function Navbar() {
     <>
       {
         <header className="site-header">
-        <div className="container nav-wrap">
-            <a href="#top" className="brand">
-                <img src="/tierra_logo-removebg-preview.png" alt="Tierra logo" className="brand-logo" />
-                <div>
-                  <div className="brand-title">TIERRA</div>
-                  <div className="brand-subtitle">Rethinking Surfaces. Rebuilding Materials.</div>
-                </div>
+          <div className="container nav-wrap">
+            <a href="/" className="brand">
+              <img src="/tierra_logo-removebg-preview.png" alt="Tierra logo" className="brand-logo" />
+              <div>
+                <div className="brand-title">TIERRA</div>
+                <div className="brand-subtitle">Rethinking Surfaces. Rebuilding Materials.</div>
+              </div>
             </a>
 
-            <nav className="nav-links">
+            <div className="nav-right">
+              <nav className="nav-links">
                 {navItems.map((item) => (
-                <a key={item.href} href={item.href}>
+                  <a key={item.href} href={item.href}>
                     {item.label}
-                </a>
+                  </a>
                 ))}
-            </nav>
+              </nav>
+
+              <a href="#contact" className="nav-cta">
+                Order Now
+              </a>
             </div>
+          </div>
         </header>
       }
     </>
