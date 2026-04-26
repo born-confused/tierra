@@ -41,7 +41,7 @@ export default function WaitlistSection() {
 
     setStatus('You\'re on the Tierra waitlist.');
     setCelebrate(true);
-    setTimeout(() => setCelebrate(false), 1800);
+    setTimeout(() => setCelebrate(false), 2500);
     setCount(data.count ?? count);
     setName('');
     setEmail('');
@@ -56,7 +56,7 @@ export default function WaitlistSection() {
             <div className="celebration-card">
             <div className="celebration-burst">🎉</div>
             <h3>You're on the Tierra waitlist</h3>
-            <p>We’ll keep you posted on early access and ordering updates.</p>
+            <p>We'll keep you posted on early access and ordering updates.</p>
             </div>
         </div>
         )}
