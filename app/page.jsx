@@ -71,6 +71,13 @@ export default function HomePage() {
 
       <Hero />
 
+      <section className="home-image-banner">
+        <img
+          src="/tierra-transition.webp"
+          alt="Tierra modular wall tiles in another interior setting"
+        />
+      </section>
+
       <WhyTierra benefits={benefits} />
 
       <UseCases audience={audience} />
