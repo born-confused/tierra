@@ -2,6 +2,7 @@ import Navbar from "../components/navbar";
 import Hero from "../components/hero";
 import WhyTierra from "../components/whytierra";
 import UseCases from "../components/usecases";
+import WaitlistSection from '../components/waitlistsection';
 
 
 const benefits = [
@@ -82,25 +83,7 @@ export default function HomePage() {
 
       <UseCases audience={audience} />
 
-      <section id="contact" className="section contact-section">
-        <div className="container">
-          <div className="contact-panel">
-            <div className="section-label section-label-light">Get in touch</div>
-            <h2>Bring a lower-waste wall system into your next space.</h2>
-            <p>
-              Whether you are designing a retail installation, a commercial environment, or a home refresh, Tierra is built to make walls more adaptable and more responsible.
-            </p>
-            <div className="button-row">
-              <a href="mailto:gsinghan@uci.edu" className="button button-primary">
-                Email the team
-              </a>
-              <a href="#top" className="button button-secondary button-secondary-dark">
-                Back to top
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
+      <WaitlistSection />
     </main>
   );
 }

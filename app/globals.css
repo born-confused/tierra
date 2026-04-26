@@ -264,6 +264,12 @@ h1 {
   transform: translateY(-1px);
 }
 
+.button:focus-visible,
+.button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
 .button-primary {
   background: var(--green);
   color: white;
@@ -1297,6 +1303,119 @@ h1 {
   color: var(--muted);
 }
 
+.waitlist-panel {
+  display: grid;
+  gap: 22px;
+}
+
+.waitlist-form {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  gap: 14px;
+  max-width: 900px;
+}
+
+.waitlist-form input {
+  height: 52px;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.08);
+  color: white;
+  padding: 0 18px;
+  font-size: 15px;
+  outline: none;
+}
+
+.waitlist-form input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.waitlist-form input:focus {
+  border-color: rgba(255, 255, 255, 0.42);
+  background: rgba(255, 255, 255, 0.11);
+}
+
+.waitlist-meta {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  color: rgba(255, 255, 255, 0.68);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.waitlist-count {
+  color: #ffffff;
+  background: rgba(215, 238, 215, 0.16);
+  border: 1px solid rgba(215, 238, 215, 0.35);
+  padding: 8px 12px;
+  border-radius: 999px;
+  box-shadow: 0 10px 26px rgba(215, 238, 215, 0.12);
+}
+
+.waitlist-status {
+  color: rgba(255, 255, 255, 0.68);
+}
+
+.waitlist-error {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.celebration-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: grid;
+  place-items: center;
+  background: rgba(16, 37, 28, 0.72);
+  backdrop-filter: blur(10px);
+  pointer-events: none;
+  animation: celebrationFade 1.9s ease forwards;
+}
+
+.celebration-card {
+  width: min(520px, calc(100% - 40px));
+  padding: 42px;
+  border-radius: 34px;
+  background: rgba(255, 255, 255, 0.92);
+  color: var(--text);
+  text-align: center;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.25);
+  animation: celebrationPop 0.7s ease;
+}
+
+.celebration-burst {
+  font-size: 76px;
+  margin-bottom: 18px;
+}
+
+.celebration-card h3 {
+  font-size: 32px;
+  line-height: 1.1;
+}
+
+.celebration-card p {
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+@keyframes celebrationFade {
+  0% { opacity: 0; }
+  14% { opacity: 1; }
+  78% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@keyframes celebrationPop {
+  0% { transform: scale(0.88) translateY(18px); }
+  60% { transform: scale(1.03) translateY(-4px); }
+  100% { transform: scale(1) translateY(0); }
+}
+
 .contact-section {
   padding-top: 0;
   padding-bottom: 110px;
@@ -1364,6 +1483,10 @@ h1 {
 @media (max-width: 680px) {
   .home-image-banner {
     padding-top: 16px;
+  }
+
+  .waitlist-form {
+    grid-template-columns: 1fr;
   }
 
   .use-case-image-strip {
