@@ -41,7 +41,7 @@ export default function WaitlistSection() {
 
     setStatus('You\'re on the Tierra waitlist.');
     setCelebrate(true);
-    setTimeout(() => setCelebrate(false), 4500);
+    setTimeout(() => setCelebrate(false), 5000);
     setCount(data.count ?? count);
     setName('');
     setEmail('');
