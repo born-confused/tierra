@@ -39,7 +39,7 @@ a {
 
 main {
   overflow-x: hidden;
-  padding-top: 88px;
+  padding-top: 83px;
 }
 
 .container {
@@ -70,17 +70,6 @@ main {
   display: flex;
   align-items: center;
   gap: 18px;
-}
-
-.brand-mark {
-  width: 42px;
-  height: 42px;
-  display: grid;
-  place-items: center;
-  border-radius: 16px;
-  background: var(--green);
-  color: white;
-  font-weight: 700;
 }
 
 .brand-logo {
@@ -131,7 +120,7 @@ main {
   left: 0;
   bottom: -8px;
   width: 0;
-  height: 1px;
+  height: 3px;
   background: var(--green);
   transition: width 0.2s ease;
 }
@@ -144,11 +133,6 @@ main {
   display: flex;
   align-items: center;
   gap: 34px;
-}
-
-.nav-actions {
-  display: flex;
-  align-items: center;
 }
 
 /* CTA Button */
@@ -238,18 +222,9 @@ h1 {
   max-width: 700px;
 }
 
-.hero-cards {
-  margin-top: 28px;
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 14px;
-}
-
-.mini-card,
 .content-card,
 .contact-panel,
 .tile-shell,
-.dark-card,
 .faq-item {
   border-radius: 28px;
   border: 1px solid var(--border);
@@ -257,23 +232,11 @@ h1 {
   box-shadow: var(--shadow);
 }
 
-.mini-card {
-  padding: 18px;
-}
-
-.mini-card strong,
 .content-card h3,
 .contact-panel h2 {
   display: block;
   font-size: 18px;
   font-weight: 700;
-}
-
-.mini-card p {
-  margin-top: 10px;
-  font-size: 14px;
-  line-height: 1.6;
-  color: var(--muted);
 }
 
 .button-row {
@@ -352,19 +315,6 @@ h1 {
   padding: 22px
 }
 
-.tile-grid {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 12px;
-}
-
-.tile-grid > div {
-  aspect-ratio: 1 / 1;
-  border-radius: 20px;
-  border: 1px solid #dcd4c8;
-  box-shadow: inset 0 1px 3px rgba(255, 255, 255, 0.7);
-}
-
 .tile-note-row {
   margin-top: 22px;
   display: grid;
@@ -395,24 +345,8 @@ h1 {
 
 .tile.wave, .tile-wave { background: linear-gradient(135deg, #e7dfd3, #f3ece4); }
 .tile.sand, .tile-sand { background: linear-gradient(135deg, #f5f2eb, #ebe4da); }
-.tile.pebble, .tile-pebble { background: linear-gradient(135deg, #ddd9d0, #f2eee8); }
-.tile.ridge, .tile-ridge { background: linear-gradient(135deg, #dcc8b8, #f1e3d8); }
-.tile.fog, .tile-fog { background: linear-gradient(135deg, #eeebe4, #d8e0df); }
-.tile.moss, .tile-moss { background: linear-gradient(135deg, #d7e5d6, #b8c8b2); }
 .tile.pearl, .tile-pearl { background: linear-gradient(135deg, #f5f1eb, #ebe0d9); }
-.tile.stone, .tile-stone { background: linear-gradient(135deg, #d7d1c8, #f0ece5); }
-.tile.cream, .tile-cream { background: linear-gradient(135deg, #f6f0e4, #eee7da); }
-.tile.clay, .tile-clay { background: linear-gradient(135deg, #d7beab, #efdfd1); }
-.tile.frost, .tile-frost { background: linear-gradient(135deg, #f5f7f6, #e1ece8); }
 .tile.sage, .tile-sage { background: linear-gradient(135deg, #d7e6db, #c1d1c5); }
-.tile.dune, .tile-dune { background: linear-gradient(135deg, #e7dac9, #f5ece0); }
-.tile.mist, .tile-mist { background: linear-gradient(135deg, #e2e4df, #f3f3ee); }
-.tile.olive, .tile-olive { background: linear-gradient(135deg, #d5d8c2, #c1c4a7); }
-.tile.chalk, .tile-chalk { background: linear-gradient(135deg, #f8f7f3, #ebe8df); }
-.tile.shell, .tile-shell-tile { background: linear-gradient(135deg, #f4ede5, #ede3d7); }
-.tile.sea, .tile-sea { background: linear-gradient(135deg, #d4e7e6, #bfd8d1); }
-.tile.ivory, .tile-ivory { background: linear-gradient(135deg, #f7f4ed, #ece5d9); }
-.tile.drift, .tile-drift { background: linear-gradient(135deg, #dad5cb, #efebe3); }
 
 .section {
   padding: 92px 0;
@@ -809,10 +743,6 @@ h1 {
   border-bottom: none;
 }
 
-.proof-stats {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
 .roadmap-intro {
   max-width: 980px;
   margin-bottom: 30px;
@@ -988,10 +918,6 @@ h1 {
 
 .use-cases-heading h2 {
   width: 100%;
-}
-
-.use-cases-cards {
-  grid-column: 1 / -1;
 }
 
 .content-card {
@@ -1394,9 +1320,6 @@ h1 {
   .proof-stats {
     grid-template-columns: 1fr;
   }
-  .hero-cards {
-    grid-template-columns: 1fr;
-  }
 
   .nav-wrap {
     align-items: flex-start;
@@ -1406,11 +1329,6 @@ h1 {
   .nav-links {
     gap: 16px;
   }
-}
-
-.home-image-banner {
-  width: 100%;
-  background: var(--bg);
 }
 
 .home-image-banner img {
@@ -1484,10 +1402,6 @@ h1 {
 
   .button {
     width: 100%;
-  }
-
-  .tile-grid {
-    grid-template-columns: repeat(4, 1fr);
   }
 
   .content-card,
