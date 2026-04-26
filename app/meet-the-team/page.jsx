@@ -7,7 +7,7 @@ const team = [
     descriptor: "Vision, manufacturing, and operations",
     image: "/team/gopal.png",
     linkedin: "https://www.linkedin.com/in/gopalsinghania175",
-    bio: "Gopal is the driving force behind the original idea for C-LOCK. With deep experience in plant operations, manufacturing systems, and process discipline, he brings the operational and industrial perspective needed to shape C-LOCK into a scalable real-world product.",
+    bio: "Gopal is the driving force behind the original idea for Tierra. With deep experience in plant operations, manufacturing systems, and process discipline, he brings the operational and industrial perspective needed to shape Tierra into a scalable real-world product.",
   },
   {
     name: "Sumit Sudan",
@@ -15,7 +15,7 @@ const team = [
     descriptor: "Product thinking and technical execution",
     image: "/team/sumit.png",
     linkedin: "https://www.linkedin.com/in/sumit-sudan",
-    bio: "Sumit leads the product lens of C-LOCK. With experience across software engineering, product ownership, and user experience improvement, he helps translate the idea into a product system that is usable, structured, and grounded in real customer needs.",
+    bio: "Sumit leads the product lens of Tierra. With experience across software engineering, product ownership, and user experience improvement, he helps translate the idea into a product system that is usable, structured, and grounded in real customer needs.",
   },
   {
     name: "Dishita Thaker",
@@ -23,7 +23,7 @@ const team = [
     descriptor: "Brand, positioning, and go-to-market",
     image: "/team/dishita.png",
     linkedin: "https://www.linkedin.com/in/dishita-thaker",
-    bio: "Dishita shapes how C-LOCK is positioned and communicated. Her background in product marketing, consumer insights, and strategic storytelling helps turn a strong material concept into a brand and market narrative that people can understand and remember.",
+    bio: "Dishita shapes how Tierra is positioned and communicated. Her background in product marketing, consumer insights, and strategic storytelling helps turn a strong material concept into a brand and market narrative that people can understand and remember.",
   },
   {
     name: "Bhavya Bommireddy",
@@ -31,7 +31,7 @@ const team = [
     descriptor: "Execution, systems, and business operations",
     image: "/team/bhavya.jpeg",
     linkedin: "https://www.linkedin.com/in/bhavyabommireddy",
-    bio: "Bhavya brings the operational backbone to C-LOCK. With experience spanning entrepreneurship, supply chain, and customer-centered business execution, she helps connect the product vision to scalable operational thinking and practical delivery.",
+    bio: "Bhavya brings the operational backbone to Tierra. With experience spanning entrepreneurship, supply chain, and customer-centered business execution, she helps connect the product vision to scalable operational thinking and practical delivery.",
   },
   {
     name: "Aditya Nand",
@@ -39,7 +39,7 @@ const team = [
     descriptor: "Product strategy, systems thinking, and AI",
     image: "/team/aditya.png",
     linkedin: "https://www.linkedin.com/in/aditya-nand3",
-    bio: "Aditya leads strategic framing for C-LOCK. With experience across product management, AI-enabled systems, and technical problem solving, he helps shape the broader direction of the product, the story behind it, and the long-term opportunity it can create.",
+    bio: "Aditya leads strategic framing for Tierra. With experience across product management, AI-enabled systems, and technical problem solving, he helps shape the broader direction of the product, the story behind it, and the long-term opportunity it can create.",
   },
 ];
 
@@ -51,9 +51,9 @@ export default function MeetTheCreatorsPage() {
       <section className="section creators-hero-section">
         <div className="container creators-hero-single">
           <div className="section-label">Meet the Creators</div>
-          <h1>The people behind C-LOCK.</h1>
+          <h1>The people behind Tierra.</h1>
           <p className="hero-copy">
-            C-LOCK is being shaped by a team that brings together product thinking, operations, marketing, manufacturing, and strategy. What connects us is a shared belief that better materials can create better systems for the built environment.
+            Tierra is being shaped by a team that brings together product thinking, operations, marketing, manufacturing, and strategy. What connects us is a shared belief that better materials can create better systems for the built environment.
           </p>
         </div>
       </section>
@@ -94,7 +94,7 @@ export default function MeetTheCreatorsPage() {
             <div className="section-label section-label-light">Connect</div>
             <h2>Interested in the mission, the product, or the team?</h2>
             <p>
-              Reach out and connect directly with the people building C-LOCK.
+              Reach out and connect directly with the people building Tierra.
             </p>
           </div>
         </div>

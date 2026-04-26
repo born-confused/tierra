@@ -79,7 +79,7 @@ export default function MaterialsPage() {
             <div className="section-label">Materials</div>
             <h1>From carbon to material.</h1>
             <p className="hero-copy">
-              C-LOCK is built around a material system that stores carbon within the product itself. Instead of relying on fossil-heavy panels, it uses bio-based polymer chemistry and engineered additives to create a modular wall tile designed for interiors.
+              Tierra is built around a material system that stores carbon within the product itself. Instead of relying on fossil-heavy panels, it uses bio-based polymer chemistry and engineered additives to create a modular wall tile designed for interiors.
             </p>
             <div className="materials-hero-tags">
               <span>Bio-based polymer</span>
@@ -98,7 +98,7 @@ export default function MaterialsPage() {
               </div>
 
               <div className="materials-panel-note">
-                <strong>C-LOCK Tile</strong>
+                <strong>Tierra Tile</strong>
                 <p>
                   A lightweight, modular decorative wall tile engineered to store carbon while meeting real interior performance needs.
                 </p>
@@ -133,14 +133,14 @@ export default function MaterialsPage() {
             <div className="section-label">Composition</div>
             <h2>Not raw polymer. A complete material system.</h2>
             <p>
-              C-LOCK tiles are engineered as composites. That means the final tile is built from multiple components working together to deliver structure, durability, flexibility, and surface protection.
+              Tierra tiles are engineered as composites. That means the final tile is built from multiple components working together to deliver structure, durability, flexibility, and surface protection.
             </p>
           </div>
 
           <div className="composition-board">
             <div className="composition-center">
               <div className="composition-center-surface">
-                <div className="composition-center-label">C-LOCK Tile</div>
+                <div className="composition-center-label">Tierra Tile</div>
               </div>
             </div>
 
@@ -161,7 +161,7 @@ export default function MaterialsPage() {
         <div className="container">
           <div className="materials-table-intro">
             <div className="section-label">Comparison</div>
-            <h2>How C-LOCK differs from conventional wall materials.</h2>
+            <h2>How Tierra differs from conventional wall materials.</h2>
             <p>
               The material story is not only about appearance. It changes where the material comes from, how it behaves with carbon, and what happens over its lifecycle.
             </p>
@@ -172,7 +172,7 @@ export default function MaterialsPage() {
               <thead>
                 <tr>
                   <th>Feature</th>
-                  <th>C-LOCK</th>
+                  <th>Tierra</th>
                   <th>PVC Panels</th>
                   <th>MDF</th>
                 </tr>

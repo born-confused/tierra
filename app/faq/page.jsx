@@ -4,7 +4,7 @@ const faqGroups = [
   {
     id: "basics",
     label: "Basics",
-    title: "What C-LOCK is",
+    title: "What Tierra is",
     items: [
       {
         q: 'What is Tierra?',
@@ -12,10 +12,10 @@ const faqGroups = [
       },
       {
         q: "How is it different from standard wall panels?",
-        a: "Most conventional wall systems are made from fossil-based plastics or wood products and are often replaced in full during renovations. C-LOCK is designed around modular replacement, lower-toxicity material choices, and carbon storage within the product.",
+        a: "Most conventional wall systems are made from fossil-based plastics or wood products and are often replaced in full during renovations. Tierra is designed around modular replacement, lower-toxicity material choices, and carbon storage within the product.",
       },
       {
-        q: "Where can C-LOCK be used?",
+        q: "Where can Tierra be used?",
         a: "It is positioned for interior use cases such as commercial spaces, retail environments, offices, and residential wall applications where modularity, appearance, and lower-waste updates matter.",
       },
     ],
@@ -26,8 +26,8 @@ const faqGroups = [
     title: "How the material works",
     items: [
       {
-        q: "What is C-LOCK made from?",
-        a: "At its core, C-LOCK uses a bio-based polymer system built around PHBV, combined with additional components that improve strength, toughness, fire performance, and surface durability.",
+        q: "What is Tierra made from?",
+        a: "At its core, Tierra uses a bio-based polymer system built around PHBV, combined with additional components that improve strength, toughness, fire performance, and surface durability.",
       },
       {
         q: "What is PHBV in simple terms?",
@@ -39,7 +39,7 @@ const faqGroups = [
       },
       {
         q: "Why compare it to PVC or MDF?",
-        a: "Because those are common reference points in interior materials. The comparison helps explain how C-LOCK differs in carbon source, toxicity profile, modularity, and lifecycle thinking.",
+        a: "Because those are common reference points in interior materials. The comparison helps explain how Tierra differs in carbon source, toxicity profile, modularity, and lifecycle thinking.",
       },
     ],
   },
@@ -49,7 +49,7 @@ const faqGroups = [
     title: "Durability and interior use",
     items: [
       {
-        q: "Is C-LOCK durable enough for real interiors?",
+        q: "Is Tierra durable enough for real interiors?",
         a: "It is being designed as an engineered composite tile rather than raw polymer alone. The full material system is intended to balance structure, toughness, and usability for interior applications.",
       },
       {
@@ -73,7 +73,7 @@ const faqGroups = [
     items: [
       {
         q: "Why is modularity so important?",
-        a: "Because many renovation cycles generate waste by replacing entire panels when only part of a wall needs to change. C-LOCK is designed so individual tiles can be removed, replaced, or rearranged instead.",
+        a: "Because many renovation cycles generate waste by replacing entire panels when only part of a wall needs to change. Tierra is designed so individual tiles can be removed, replaced, or rearranged instead.",
       },
       {
         q: "What happens at end of life?",
@@ -95,7 +95,7 @@ const faqGroups = [
     title: "Cost, scale, and roadmap",
     items: [
       {
-        q: "Is C-LOCK commercially available today?",
+        q: "Is Tierra commercially available today?",
         a: "It is still positioned in a prototype-stage direction, with the roadmap moving from currently available PHBV inputs toward deeper CO₂-derived feedstock integration over time.",
       },
       {
@@ -108,7 +108,7 @@ const faqGroups = [
       },
       {
         q: "Why does the roadmap matter?",
-        a: "Because C-LOCK is not only a product concept. It is also a systems concept. The roadmap shows how the material story can become stronger as feedstocks, process integration, and scale improve.",
+        a: "Because Tierra is not only a product concept. It is also a systems concept. The roadmap shows how the material story can become stronger as feedstocks, process integration, and scale improve.",
       },
     ],
   },
@@ -177,7 +177,7 @@ export default function FaqPage() {
             <div className="section-label section-label-light">Still curious?</div>
             <h2>Some questions are better answered in conversation.</h2>
             <p>
-              If you want to discuss the material, the product direction, or the broader vision behind C-LOCK, reach out directly.
+              If you want to discuss the material, the product direction, or the broader vision behind Tierra, reach out directly.
             </p>
             <div className="button-row">
               <a href="mailto:gsinghan@uci.edu" className="button button-primary">

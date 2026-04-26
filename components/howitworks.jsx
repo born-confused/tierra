@@ -5,7 +5,7 @@ export default function HowItWorks() {
           <div className="section-label">How it works</div>
           <h2>A simpler way to build and refresh walls</h2>
           <p>
-            C-LOCK turns walls into a modular system that can evolve over time. Instead of static installations that require full replacement, it enables a more flexible and material-conscious way to build interiors.
+            Tierra turns walls into a modular system that can evolve over time. Instead of static installations that require full replacement, it enables a more flexible and material-conscious way to build interiors.
           </p>
         </div>
 

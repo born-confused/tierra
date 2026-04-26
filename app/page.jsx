@@ -40,8 +40,8 @@ const audience = [
 
 const faqs = [
   {
-    q: 'What is C-LOCK?',
-    a: 'C-LOCK is a modular wall tile system designed to replace traditional plastic and wood wall panels with a more flexible, low-waste alternative.',
+    q: 'What is Tierra?',
+    a: 'Tierra is a modular wall tile system designed to replace traditional plastic and wood wall panels with a more flexible, low-waste alternative.',
   },
   {
     q: 'Do I need tools or professional installers?',
@@ -49,7 +49,7 @@ const faqs = [
   },
   {
     q: 'Why is this better than standard wall panels?',
-    a: 'Traditional renovations often create waste because entire panels get replaced. C-LOCK lets users update only the pieces they need while also aiming for stronger environmental performance.',
+    a: 'Traditional renovations often create waste because entire panels get replaced. Tierra lets users update only the pieces they need while also aiming for stronger environmental performance.',
   },
   {
     q: 'Who is it for?',

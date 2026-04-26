@@ -1,6 +1,6 @@
-# C-LOCK Product Website
+# Tierra Product Website
 
-A Vercel-ready Next.js website for C-LOCK, a modular eco-friendly wall tile product.
+A Vercel-ready Next.js website for Tierra, a modular eco-friendly wall tile product.
 
 ## Run locally
 
