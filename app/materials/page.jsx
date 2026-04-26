@@ -192,28 +192,30 @@ export default function MaterialsPage() {
         </div>
       </section>
 
-      <section className="section section-dark materials-impact-section">
+      <section id="sustainability" className="section section-dark">
         <div className="container sustainability-proof">
           <div className="sustainability-intro">
-            <div className="section-label section-label-light">Carbon impact</div>
-            <h2>The material carries measurable carbon value.</h2>
-            <p>Built so the wall itself becomes part of the carbon story.</p>
+            <div className="section-label section-label-light">Carbon proof</div>
+            <h2>Sustainability becomes real when it can be measured.</h2>
+            <p>
+              Tierra is positioned around reducing waste from traditional interior renovation while using a material approach that aims to capture carbon and support end-of-life recycling.
+            </p>
           </div>
 
           <div className="proof-stats">
             <div className="proof-stat">
               <div className="proof-number">1.2 kg</div>
-              <p>CO₂-equivalent carbon stored per tile</p>
+              <p>of CO₂-equivalent carbon stored per tile</p>
             </div>
 
             <div className="proof-stat">
               <div className="proof-number">15-20 tiles</div>
-              <p>roughly equivalent to one tree, in wall form</p>
+              <p>is roughly like planting one tree, in wall form</p>
             </div>
 
             <div className="proof-stat">
-              <div className="proof-number">~60%</div>
-              <p>assumed PHBV content in the current carbon estimate</p>
+              <div className="proof-number">Tile-level updates</div>
+              <p>replace only what changes instead of redoing the full wall</p>
             </div>
           </div>
         </div>

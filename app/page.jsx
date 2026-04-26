@@ -102,35 +102,6 @@ export default function HomePage() {
 
       <WhyClock benefits={benefits} />
 
-      <section id="sustainability" className="section section-dark">
-        <div className="container sustainability-proof">
-          <div className="sustainability-intro">
-            <div className="section-label section-label-light">Carbon proof</div>
-            <h2>Sustainability becomes real when it can be measured.</h2>
-            <p>
-              Tierra is positioned around reducing waste from traditional interior renovation while using a material approach that aims to capture carbon and support end-of-life recycling.
-            </p>
-          </div>
-
-          <div className="proof-stats">
-            <div className="proof-stat">
-              <div className="proof-number">1.2 kg</div>
-              <p>of CO₂-equivalent carbon stored per tile</p>
-            </div>
-
-            <div className="proof-stat">
-              <div className="proof-number">15-20 tiles</div>
-              <p>is roughly like planting one tree, in wall form</p>
-            </div>
-
-            <div className="proof-stat">
-              <div className="proof-number">Tile-level updates</div>
-              <p>replace only what changes instead of redoing the full wall</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <UseCases audience={audience} />
 
       <section id="contact" className="section contact-section">

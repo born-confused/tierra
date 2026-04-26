@@ -728,7 +728,7 @@ h1 {
   border-bottom: none;
 }
 
-.materials-impact-section .proof-stats {
+.proof-stats {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
@@ -811,7 +811,7 @@ h1 {
   .composition-layout,
   .materials-flow-strip,
   .roadmap-strip,
-  .materials-impact-section .proof-stats {
+  .proof-stats {
     grid-template-columns: 1fr;
   }
 
