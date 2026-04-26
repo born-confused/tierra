@@ -41,7 +41,7 @@ export default function WaitlistSection() {
 
     setStatus('You\'re on the Tierra waitlist.');
     setCelebrate(true);
-    setTimeout(() => setCelebrate(false), 2500);
+    setTimeout(() => setCelebrate(false), 4500);
     setCount(data.count ?? count);
     setName('');
     setEmail('');
@@ -109,7 +109,7 @@ export default function WaitlistSection() {
 
           <div className="button-row waitlist-secondary-actions">
             <a
-              href="mailto:your@email.com"
+              href="mailto:gsinghan@uci.edu"
               className="button button-secondary-dark"
             >
               Email the team
