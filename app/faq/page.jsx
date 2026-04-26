@@ -125,17 +125,7 @@ export default function FaqPage() {
             <div className="section-label">FAQ</div>
             <h1>Questions curious minds will ask.</h1>
           </div>
-
-          <div className="faq-hero-panel">
-            <div className="faq-hero-stat">
-              <span>1.2 kg</span>
-              <p>CO₂-equivalent carbon per tile</p>
-            </div>
-            <div className="faq-hero-stat">
-              <span>15-20 tiles</span>
-              <p>roughly like one tree, in wall form</p>
-            </div>
-          </div>
+          
         </div>
       </section>
 
