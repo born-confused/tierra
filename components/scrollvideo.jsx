@@ -59,7 +59,7 @@ export default function ScrollVideo() {
         aria-label={isMuted ? 'Turn sound on' : 'Turn sound off'}
         type="button"
       >
-        <span className="sound-text">{isMuted ? 'Sound' : 'On'}</span>
+        <span className="sound-text">{isMuted ? 'Tap for sound' : 'Tap to mute'}</span>
       </button>
     </section>
   );
