@@ -1452,6 +1452,21 @@ h1 {
   }
 }
 
+.scroll-video-section {
+  position: relative;
+  width: 100%;
+  background: var(--bg);
+  overflow: hidden;
+}
+
+.scroll-video {
+  display: block;
+  width: 100%;
+  height: clamp(420px, 58vw, 760px);
+  object-fit: cover;
+  object-position: center;
+}
+
 .home-image-banner img {
   display: block;
   width: 100%;
@@ -1541,6 +1556,13 @@ h1 {
 @media (max-width: 680px) {
   main {
     padding-top: 0;
+  }
+
+  @media (max-width: 680px) {
+    .scroll-video {
+      height: 360px;
+      object-position: center;
+    }
   }
 
   .site-header {

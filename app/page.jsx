@@ -3,6 +3,7 @@ import Hero from "../components/hero";
 import WhyTierra from "../components/whytierra";
 import UseCases from "../components/usecases";
 import WaitlistSection from '../components/waitlistsection';
+import ScrollVideo from '../components/scrollvideo';
 
 
 const benefits = [
@@ -72,14 +73,16 @@ export default function HomePage() {
 
       <Hero />
 
+      <ScrollVideo />
+
+      <WhyTierra benefits={benefits} />
+
       <section className="home-image-banner">
         <img
           src="/tierra-transition.webp"
           alt="Tierra modular wall tiles in another interior setting"
         />
       </section>
-
-      <WhyTierra benefits={benefits} />
 
       <UseCases audience={audience} />
 
