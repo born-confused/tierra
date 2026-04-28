@@ -39,6 +39,9 @@ export default function Hero() {
             <a href="#why-clock" className="button button-primary">
               Explore the system
             </a>
+            <a href="#contact" className="button button-secondary">
+              Request a sample
+            </a>
           </div>
         </div>
 
